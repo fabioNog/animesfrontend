@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "next",
+    "dev": "next",
     "buid": "next build",
     "start": "next start"
   },
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/fabioNog/animesfrontend#readme",
   "dependencies": {
+    "antd": "^4.10.3",
     "next": "^10.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
