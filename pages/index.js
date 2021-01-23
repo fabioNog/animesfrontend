@@ -1,13 +1,10 @@
-const rc = require("rc");
+import Header from '../components/header'
 
-import React, { Component } from 'react'
+const Home = () => (
+  <>
+    <Header />
+    <h1>Hello World!</h1>
+  </>
+)
 
-export default class index extends Component {
-    render() {
-        return (
-            <div>
-                ola mundo
-            </div>
-        )
-    }
-}
+export default Home
